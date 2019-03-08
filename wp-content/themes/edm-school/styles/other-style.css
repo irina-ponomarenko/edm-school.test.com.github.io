@@ -1,0 +1,863 @@
+.gm-style .gm-style-cc span,
+.gm-style .gm-style-cc a,.gm-style .gm-style-mtc div{
+	font-size:10px;
+	box-sizing:border-box;
+}
+@media print {
+ .gm-style .gmnoprint, .gmnoprint {
+     display:none;  
+     }
+}
+@media screen {
+  .gm-style .gmnoscreen, .gmnoscreen { 
+     display:none;  
+     }
+ }
+
+.gm-style-pbc{
+ 	transition:opacity ease-in-out;
+ 	background-color:rgba(0,0,0,0.45);
+ 	text-align:center;
+ }
+.gm-style-pbt{
+	font-size:22px;
+	color:white;
+	font-family:Roboto,Arial,
+	sans-serif;
+	position:relative;
+	margin:0;
+	top:50%;
+	-webkit-transform:translateY(-50%);
+	-ms-transform:translateY(-50%);
+	transform:translateY(-50%);
+}
+
+.gm-style {
+        font: 400 11px Roboto, Arial, sans-serif;
+        text-decoration: none;
+    }
+    .gm-style img { max-width: none; }
+
+ .tb-modal-open {
+        overflow: hidden; 
+    }
+    .tb-modal-open .tb-modal {
+        overflow-x: hidden;
+        overflow-y: auto;
+        display: block; 
+    }
+
+    .tb-modal {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        display: none;
+        background-color: rgba(0, 0, 0, 0.7);
+        z-index: 1072;
+        height: 100%;
+        width: 100%;
+        text-align: center;
+         }
+    .tb-modal * {
+        box-sizing: border-box; 
+    }
+    .tb-modal .tb-modal-dialog {
+        height: 100%;
+        width: 100%; }
+    .tb-modal .tb-modal-dialog:before {
+        display: inline-block;
+        vertical-align: middle;
+        content: " ";
+        height: 100%; 
+    }
+    .tb-modal .tb-modal-dialog .tb-modal-content {
+        display: inline-block;
+        position: relative;
+        padding: 25px 25px 35px;
+        background-color: #fff;
+        width: 310px;
+         }
+    .tb-modal .tb-modal-dialog .tb-modal-content .tb-modal-content_text {
+        display: flex;
+        justify-content: center; 
+    }
+    .tb-modal .tb-modal-dialog .tb-modal-content .tb-close {
+        position: absolute;
+        top: 5px;
+        right: 12px;
+        border: none;
+        outline: 0;
+        padding: 0;
+        background-color: transparent;
+        font-size: 24px;
+        font-weight: bold;
+        color: #000;
+        opacity: 0.7; 
+    }
+    .tb-modal .tb-modal-dialog .tb-modal-content .tb-close:hover {
+        opacity: 1;
+        cursor: pointer;
+         }
+
+    .tb-vk-button {
+        margin-top: 15px;
+        display: inline-block;
+        width: 230px;
+        position: relative;
+        padding-left: 40px;
+         }
+    .tb-vk-button .tb-vk-icon {
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        top: 0px;
+        left: 0px; 
+    }
+    .tb-vk-button .tb-vk-icon > svg path {
+        fill: #45668e; }
+
+    @media only screen and (min-device-width: 736px) {
+        .tb-modal .tb-modal-dialog .tb-modal-content {
+            width: 500px; 
+        }
+        .tb-vk-button {
+            width: 245px;
+            padding-left: 55px; 
+        }
+        .tb-vk-button .tb-vk-icon {
+            width: 40px;
+            height: 40px;
+            top: -5px; 
+        } 
+    }
+
+
+
+
+    /*based on*/
+    /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner {
+        /**
+         * Correct the font size and margin on `h1` elements within `section` and
+         * `article` contexts in Chrome, Firefox, and Safari.
+         */
+        /* Grouping content
+           ========================================================================== */
+        /**
+         * Add the correct display in IE 9-.
+         * 1. Add the correct display in IE.
+         */
+        /**
+         * 1. Add the correct box sizing in Firefox.
+         * 2. Show the overflow in Edge and IE.
+         */
+        /**
+         * 1. Correct the inheritance and scaling of font size in all browsers.
+         * 2. Correct the odd `em` font sizing in all browsers.
+         */
+        /* Text-level semantics
+           ========================================================================== */
+        /**
+         * 1. Remove the gray background on active links in IE 10.
+         * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+         */
+        /**
+         * 1. Remove the bottom border in Chrome 57- and Firefox 39-.
+         * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+         */
+        /**
+         * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+         */
+        /**
+         * Add the correct font weight in Chrome, Edge, and Safari.
+         */
+        /**
+         * 1. Correct the inheritance and scaling of font size in all browsers.
+         * 2. Correct the odd `em` font sizing in all browsers.
+         */
+        /**
+         * Add the correct font style in Android 4.3-.
+         */
+        /**
+         * Add the correct background and color in IE 9-.
+         */
+        /**
+         * Add the correct font size in all browsers.
+         */
+        /**
+         * Prevent `sub` and `sup` elements from affecting the line height in
+         * all browsers.
+         */
+        /* Embedded content
+           ========================================================================== */
+        /**
+         * Add the correct display in IE 9-.
+         */
+        /**
+         * Add the correct display in iOS 4-7.
+         */
+        /**
+         * Remove the border on images inside links in IE 10-.
+         */
+        /**
+         * Hide the overflow in IE.
+         */
+        /* Forms
+           ========================================================================== */
+        /**
+         * 1. Change the font styles in all browsers (opinionated).
+         * 2. Remove the margin in Firefox and Safari.
+         */
+        /**
+         * Show the overflow in IE.
+         * 1. Show the overflow in Edge.
+         */
+        /**
+         * Remove the inheritance of text transform in Edge, Firefox, and IE.
+         * 1. Remove the inheritance of text transform in Firefox.
+         */
+        /**
+         * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
+         *    controls in Android 4.
+         * 2. Correct the inability to style clickable types in iOS and Safari.
+         */
+        /**
+         * Remove the inner border and padding in Firefox.
+         */
+        /**
+         * Restore the focus styles unset by the previous rule.
+         */
+        /**
+         * Correct the padding in Firefox.
+         */
+        /**
+         * 1. Correct the text wrapping in Edge and IE.
+         * 2. Correct the color inheritance from `fieldset` elements in IE.
+         * 3. Remove the padding so developers are not caught out when they zero out
+         *    `fieldset` elements in all browsers.
+         */
+        /**
+         * 1. Add the correct display in IE 9-.
+         * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
+         */
+        /**
+         * Remove the default vertical scrollbar in IE.
+         */
+        /**
+         * 1. Add the correct box sizing in IE 10-.
+         * 2. Remove the padding in IE 10-.
+         */
+        /**
+         * Correct the cursor style of increment and decrement buttons in Chrome.
+         */
+        /**
+         * 1. Correct the odd appearance in Chrome and Safari.
+         * 2. Correct the outline style in Safari.
+         */
+        /**
+         * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
+         */
+        /**
+         * 1. Correct the inability to style clickable types in iOS and Safari.
+         * 2. Change font properties to `inherit` in Safari.
+         */
+        /* Interactive
+           ========================================================================== */
+        /*
+         * Add the correct display in IE 9-.
+         * 1. Add the correct display in Edge, IE, and Firefox.
+         */
+        /*
+         * Add the correct display in all browsers.
+         */
+        /* Scripting
+           ========================================================================== */
+        /**
+         * Add the correct display in IE.
+         */
+        /* Hidden
+           ========================================================================== */
+        /**
+         * Add the correct display in IE 10-.
+         */ }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner h1 {
+        font-size: 2em;
+        margin: 0.67em 0; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner figcaption,
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner figure,
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner main {
+        /* 1 */
+        display: block; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner hr {
+        box-sizing: content-box;
+        /* 1 */
+        height: 0;
+        /* 1 */
+        overflow: visible;
+        /* 2 */ }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner pre {
+        font-family: monospace, monospace;
+        /* 1 */
+        font-size: 1em;
+        /* 2 */ }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner a {
+        background-color: transparent;
+        /* 1 */
+        -webkit-text-decoration-skip: objects;
+        /* 2 */ }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner abbr[title] {
+        border-bottom: none;
+        /* 1 */
+        text-decoration: underline;
+        /* 2 */
+        text-decoration: underline dotted;
+        /* 2 */ }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner b,
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner strong {
+        font-weight: inherit; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner b,
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner strong {
+        font-weight: bolder; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner code,
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner kbd,
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner samp {
+        font-family: monospace, monospace;
+        /* 1 */
+        font-size: 1em;
+        /* 2 */ }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner dfn {
+        font-style: italic; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner mark {
+        background-color: #ff0;
+        color: #000; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner small {
+        font-size: 80%; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner sub,
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner sup {
+        font-size: 75%;
+        line-height: 0;
+        position: relative;
+        vertical-align: baseline; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner sub {
+        bottom: -0.25em; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner sup {
+        top: -0.5em; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner audio,
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner video {
+        display: inline-block; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner audio:not([controls]) {
+        display: none;
+        height: 0; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner img {
+        border-style: none; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner svg:not(:root) {
+        overflow: hidden; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner button,
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner input,
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner optgroup,
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner select,
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner textarea {
+        font-family: sans-serif;
+        /* 1 */
+        font-size: 100%;
+        /* 1 */
+        line-height: 1.15;
+        /* 1 */
+        margin: 0;
+        /* 2 */ }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner button,
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner input {
+        /* 1 */
+        overflow: visible; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner button,
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner select {
+        /* 1 */
+        text-transform: none; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner button,
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner html [type="button"],
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner [type="reset"],
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner [type="submit"] {
+        -webkit-appearance: button;
+        /* 2 */ }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner button::-moz-focus-inner,
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner [type="button"]::-moz-focus-inner,
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner [type="reset"]::-moz-focus-inner,
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner [type="submit"]::-moz-focus-inner {
+        border-style: none;
+        padding: 0; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner button:-moz-focusring,
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner [type="button"]:-moz-focusring,
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner [type="reset"]:-moz-focusring,
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner [type="submit"]:-moz-focusring {
+        outline: 1px dotted ButtonText; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner fieldset {
+        padding: 0.35em 0.75em 0.625em; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner legend {
+        box-sizing: border-box;
+        /* 1 */
+        color: inherit;
+        /* 2 */
+        display: table;
+        /* 1 */
+        max-width: 100%;
+        /* 1 */
+        padding: 0;
+        /* 3 */
+        white-space: normal;
+        /* 1 */ }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner progress {
+        display: inline-block;
+        /* 1 */
+        vertical-align: baseline;
+        /* 2 */ }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner textarea {
+        overflow: auto; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner [type="checkbox"],
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner [type="radio"] {
+        box-sizing: border-box;
+        /* 1 */
+        padding: 0;
+        /* 2 */ }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner [type="number"]::-webkit-inner-spin-button,
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner [type="number"]::-webkit-outer-spin-button {
+        height: auto; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner [type="search"] {
+        -webkit-appearance: textfield;
+        /* 1 */
+        outline-offset: -2px;
+        /* 2 */ }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner [type="search"]::-webkit-search-cancel-button,
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner [type="search"]::-webkit-search-decoration {
+        -webkit-appearance: none; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner ::-webkit-file-upload-button {
+        -webkit-appearance: button;
+        /* 1 */
+        font: inherit;
+        /* 2 */ }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner details,
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner menu {
+        display: block; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner summary {
+        display: list-item; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner template {
+        display: none; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner [hidden] {
+        display: none; }
+   tb-notification-widget {
+        all: initial;
+        display: inline-block;
+        font-family: 'Open Sans', 'Droid Sans', Arial, sans-serif;
+        line-height: 1.42857;
+        position: relative; }
+    tb-notification-widget.tb-no-api-call {
+        display: block; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner {
+        /*styles for non mobile*/ }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner .hidden {
+        display: none; }
+
+    @keyframes spin {
+        from {
+            transform: rotate(0deg); }
+        to {
+            transform: rotate(360deg); } }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner tb-notification-widget-overlay {
+        display: block;
+        text-align: center;
+        position: fixed;
+        z-index: 11000;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+        overflow-y: auto;
+        background-color: rgba(0, 0, 0, 0.4); }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner tb-notification-widget-overlay.hidden {
+        display: none; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner tb-notification-widget-overlay:before {
+        display: inline-block;
+        vertical-align: middle;
+        content: " ";
+        height: 100%; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner tb-notification-widget-popup {
+        box-sizing: content-box;
+        display: inline-block;
+        position: relative;
+        background-color: #fefefe;
+        margin: 0px auto;
+        width: 240px;
+        padding: 20px 35px 22px 35px;
+        border: 1px solid #888;
+        border-radius: 5px;
+        vertical-align: middle; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner tb-notification-widget-popup.pallet-dark {
+        background-color: #282828; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner tb-notification-widget-popup span.tb-notification-widget-close-icon {
+        line-height: 1;
+        opacity: 1;
+        text-shadow: none;
+        position: absolute;
+        top: 2px;
+        right: 5px;
+        color: #aaa;
+        float: right;
+        font-size: 16px;
+        font-weight: bold; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner tb-notification-widget-popup #tb-notification-brand-badge {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        width: 80px; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner tb-notification-widget-popup span.tb-notification-widget-close-icon:hover, tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner tb-notification-widget-popup span.tb-notification-widget-close-icon:active {
+        opacity: 1;
+        color: black;
+        text-decoration: none;
+        cursor: pointer; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner tb-notification-widget-icon_body img {
+        width: 24px;
+        margin-bottom: 14px; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner tb-widget-header-container {
+        display: block;
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 11px; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner tb-widget-header-line {
+        display: block;
+        margin: 0;
+        padding: 0; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner tb-notification-widget-popup.pallet-dark tb-widget-header-line {
+        color: white !important; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner tb-widget-description-container {
+        display: block;
+        font-size: 11px;
+        margin-bottom: 23px; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner tb-widget-description-line {
+        display: block;
+        margin: 5px 0;
+        padding: 0; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner tb-notification-widget-popup.pallet-dark tb-widget-description-line {
+        color: white !important; }
+    @media only screen and (min-device-width: 736px) {
+        tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner tb-notification-widget-popup {
+            width: 525px;
+            padding: 42px 80px 72px 80px; }
+        tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner tb-widget-header-container {
+            font-size: 28px;
+            margin-bottom: 24px; }
+        tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner tb-notification-widget-icon_body img {
+            width: 48px;
+            margin-bottom: 30px; }
+        tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner tb-widget-description-container {
+            font-size: 22px;
+            margin-bottom: 40px; }
+        tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner tb-notification-widget-popup #tb-notification-brand-badge {
+            bottom: 20px;
+            right: 20px;
+            width: 160px; }
+        tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner tb-notification-widget-popup span.tb-notification-widget-close-icon {
+            font-size: 28px;
+            right: 10px;
+            top: 5px; } }
+
+    .vk-app-link {
+        align-items: center;
+        display: grid;
+        grid-column-gap: 0.25em;
+        grid-template-columns: 3em 184px;
+        justify-content: center; 
+    }
+
+    .vk-app-link > tb-notification-button__text {
+        background: #5181b8;
+        border-radius: 0.15em;
+        color: white;
+        padding: 0.25em; 
+    }
+    tb-notification-widget {
+        /* new design */
+        /* old design */
+        /* popup */
+        /* circle icons design */
+        /*styles for non mobile*/ }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner tb-notification-button a {
+        cursor: pointer !important; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner .tb-notification-button__tip {
+        position: absolute;
+        font-size: 10px;
+        text-align: center;
+        margin-top: 19px;
+        left: 0;
+        width: 100%;
+        color: #6f7b8a; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner .tb-btn-align-center {
+        text-align: center; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner .tb-btn-align-left {
+        text-align: left; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner .tb-btn-align-right {
+        text-align: right; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner .tb-widget-buttons.tb-btn-style-square {
+        /* inline & popup */ }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner .tb-widget-buttons.tb-btn-style-square tb-notification-button {
+        display: block;
+        width: 100%;
+        margin: 0px 0px 20px;
+        padding: 0px;
+        background-color: transparent; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner .tb-widget-buttons.tb-btn-style-square tb-notification-button[channel="skype"] .tb-notification-button__inner > a {
+        background-color: #00aff0; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner .tb-widget-buttons.tb-btn-style-square tb-notification-button[channel="skype"] tb-notification-button__icon > svg path {
+        fill: #00aff0; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner .tb-widget-buttons.tb-btn-style-square tb-notification-button[channel="facebook"] .tb-notification-button__inner > a {
+        background-color: #3b5998; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner .tb-widget-buttons.tb-btn-style-square tb-notification-button[channel="facebook"] tb-notification-button__icon > svg path {
+        fill: #3b5998; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner .tb-widget-buttons.tb-btn-style-square tb-notification-button[channel="vk"] .tb-notification-button__inner > a {
+        background-color: #45668e; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner .tb-widget-buttons.tb-btn-style-square tb-notification-button[channel="vk"] tb-notification-button__icon > svg path {
+        fill: #45668e; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner .tb-widget-buttons.tb-btn-style-square tb-notification-button[channel="vk"] .tb-notification-button__inner > div {
+        transition: box-shadow 0.4s; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner .tb-widget-buttons.tb-btn-style-square tb-notification-button[channel="vk"] .tb-notification-button__inner > div:hover {
+        box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.4); }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner .tb-widget-buttons.tb-btn-style-square tb-notification-button[authorized="true"] tb-notification-button__text[for="login"], tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner .tb-widget-buttons.tb-btn-style-square tb-notification-button[authorized="false"] tb-notification-button__text[for="subscribe"] {
+        display: none; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner .tb-widget-buttons.tb-btn-style-square tb-notification-button[channel="viber"] .tb-notification-button__inner > a {
+        background-color: #59267c; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner .tb-widget-buttons.tb-btn-style-square tb-notification-button[channel="tg"] .tb-notification-button__inner > a {
+        background-color: #1E96C8; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner .tb-widget-buttons.tb-btn-style-square tb-notification-button[channel="tg"] tb-notification-button__icon > svg path {
+        fill: #1E96C8; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner .tb-widget-buttons.tb-btn-style-square tb-notification-button[channel="whatsapp"] .tb-notification-button__inner > a {
+        background-color: #189d0e; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner .tb-widget-buttons.tb-btn-style-square tb-notification-button[loading] {
+        color: transparent; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner .tb-widget-buttons.tb-btn-style-square tb-notification-button[loading]:after {
+        content: "";
+        border-radius: 100%;
+        border: 3px solid #fff;
+        border-bottom-color: transparent;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 16px;
+        height: 16px;
+        margin: -11px 0 0 -11px;
+        animation-name: spin;
+        animation-duration: 1000ms;
+        animation-iteration-count: infinite; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner .tb-widget-buttons.tb-btn-style-square tb-notification-button .tb-notification-button__inner {
+        position: relative;
+        display: inline-block;
+        box-sizing: border-box;
+        width: 219px;
+        padding-left: 35px;
+        float: initial; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner .tb-widget-buttons.tb-btn-style-square tb-notification-button .tb-notification-button__inner > a {
+        all: initial;
+        display: block;
+        box-sizing: content-box;
+        border-radius: 2px;
+        cursor: pointer;
+        color: #fff;
+        position: relative;
+        font-size: 12px;
+        font-family: Arial,Helvetica,sans-serif;
+        padding: 0px;
+        line-height: 29px;
+        height: 30px;
+        text-align: center;
+        text-decoration: none !important;
+        transition: box-shadow 0.4s; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner .tb-widget-buttons.tb-btn-style-square tb-notification-button .tb-notification-button__inner > a:hover {
+        color: #fff; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner .tb-widget-buttons.tb-btn-style-square tb-notification-button .tb-notification-button__inner > a:hover {
+        box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.4); }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner .tb-widget-buttons.tb-btn-style-square tb-notification-button .tb-notification-button__inner tb-notification-button__text {
+        display: inline-block;
+        vertical-align: middle; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner .tb-widget-buttons.tb-btn-style-square tb-notification-button .tb-notification-button__inner tb-notification-button__icon {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 30px;
+        height: 30px;
+        margin: 0px; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner .tb-widget-buttons.tb-btn-style-square tb-notification-button .tb-notification-button__inner tb-notification-button__icon > svg {
+        width: 100%;
+        height: 100%; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner .tb-widget-buttons.tb-btn-style-rounded {
+        /* inline */ }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner .tb-widget-buttons.tb-btn-style-rounded tb-notification-button {
+        transition: box-shadow 0.4s;
+        box-sizing: content-box;
+        padding: 10px 20px;
+        border-radius: 25px;
+        cursor: pointer;
+        background-color: #2979FF;
+        color: #fff;
+        display: inline-block;
+        margin: 0 13px 45px 0;
+        position: relative; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner .tb-widget-buttons.tb-btn-style-rounded tb-notification-button:hover {
+        box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.4); }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner .tb-widget-buttons.tb-btn-style-rounded tb-notification-button[channel="skype"] {
+        background-color: #00aff0; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner .tb-widget-buttons.tb-btn-style-rounded tb-notification-button[channel="facebook"] {
+        background-color: #3b5998; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner .tb-widget-buttons.tb-btn-style-rounded tb-notification-button[channel="vk"] {
+        background-color: #45668e; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner .tb-widget-buttons.tb-btn-style-rounded tb-notification-button[authorized="true"] tb-notification-button__text[for="login"], tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner .tb-widget-buttons.tb-btn-style-rounded tb-notification-button[authorized="false"] tb-notification-button__text[for="subscribe"] {
+        display: none; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner .tb-widget-buttons.tb-btn-style-rounded tb-notification-button[channel="viber"] {
+        background-color: #59267c; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner .tb-widget-buttons.tb-btn-style-rounded tb-notification-button[channel="tg"] {
+        background-color: #1E96C8; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner .tb-widget-buttons.tb-btn-style-rounded tb-notification-button[channel="whatsapp"] {
+        background-color: #189d0e; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner .tb-widget-buttons.tb-btn-style-rounded tb-notification-button[loading] {
+        color: transparent; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner .tb-widget-buttons.tb-btn-style-rounded tb-notification-button[loading]:after {
+        content: "";
+        border-radius: 100%;
+        border: 3px solid #fff;
+        border-bottom-color: transparent;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 16px;
+        height: 16px;
+        margin: -11px 0 0 -11px;
+        animation-name: spin;
+        animation-duration: 1000ms;
+        animation-iteration-count: infinite; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner .tb-widget-buttons.tb-btn-style-rounded tb-notification-button > a {
+        all: initial;
+        display: block;
+        text-decoration: none;
+        color: #fff;
+        font-family: inherit;
+        margin: -10px -20px;
+        text-decoration: none !important;
+        padding: 6px 30px 8px;
+        min-width: 110px;
+        text-align: center;
+        font-size: 15px; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner .tb-widget-buttons.tb-btn-style-rounded tb-notification-button > a:hover {
+        color: #fff; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner .tb-widget-buttons.tb-btn-style-rounded tb-notification-button__text {
+        display: inline-block;
+        vertical-align: middle; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner .tb-widget-buttons.tb-btn-style-rounded tb-notification-button__icon {
+        display: inline-block;
+        vertical-align: middle;
+        width: 30px;
+        height: 30px;
+        margin: -10px 0 -10px -15px; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner .tb-widget-buttons.tb-btn-style-rounded tb-notification-button__icon > svg {
+        width: 100%;
+        height: 100%; }
+    tb-notification-widget.tb-no-api-call #tb-notification-widget-inner.tb-notification-widget-inner .tb-widget-buttons.tb-btn-style-rounded tb-notification-button {
+        margin-bottom: 13px; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner tb-notification-widget-overlay .tb-widget-buttons.tb-btn-style-rounded tb-notification-button {
+        display: inline-block;
+        width: 120px;
+        height: 24px;
+        padding: 0px;
+        margin: 0px 0px 18px 0px; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner tb-notification-widget-overlay .tb-widget-buttons.tb-btn-style-rounded tb-notification-button > a {
+        position: relative;
+        text-align: center;
+        font-size: 12px;
+        padding: 5px 20px;
+        margin: 0px; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner tb-notification-widget-overlay .tb-widget-buttons.tb-btn-style-rounded tb-notification-button__icon {
+        display: block;
+        position: absolute;
+        left: 8px;
+        top: 2px;
+        width: 20px;
+        height: 20px;
+        margin: 0px;
+        padding: 0px; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner tb-notification-widget-overlay .tb-widget-buttons.tb-btn-style-rounded tb-notification-button__text {
+        vertical-align: baseline;
+        width: 60px;
+        text-align: center;
+        color: #fff; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner .tb-widget-buttons.tb-btn-style-icons {
+        /* inline */ }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner .tb-widget-buttons.tb-btn-style-icons tb-notification-button {
+        display: inline-block;
+        position: relative;
+        margin: 0px 13px 13px 0px; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner .tb-widget-buttons.tb-btn-style-icons tb-notification-button:hover {
+        cursor: pointer; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner .tb-widget-buttons.tb-btn-style-icons tb-notification-button[loading] {
+        color: transparent; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner .tb-widget-buttons.tb-btn-style-icons tb-notification-button[loading]:after {
+        content: "";
+        border-radius: 100%;
+        border: 3px solid #fff;
+        border-bottom-color: transparent;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 16px;
+        height: 16px;
+        margin: -11px 0 0 -11px;
+        animation-name: spin;
+        animation-duration: 1000ms;
+        animation-iteration-count: infinite; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner .tb-widget-buttons.tb-btn-style-icons tb-notification-button > a {
+        all: initial;
+        display: block;
+        text-decoration: none;
+        font-family: inherit;
+        text-decoration: none !important;
+        min-width: 80px;
+        text-align: center;
+        font-size: 13px;
+        color: #333; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner .tb-widget-buttons.tb-btn-style-icons tb-notification-button > a:hover {
+        cursor: pointer; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner .tb-widget-buttons.tb-btn-style-icons tb-notification-button__text {
+        display: block;
+        margin-top: 4px; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner .tb-widget-buttons.tb-btn-style-icons tb-notification-button__icon {
+        display: block;
+        width: 50px;
+        height: 50px;
+        margin: 0px auto; }
+    tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner .tb-widget-buttons.tb-btn-style-icons tb-notification-button__icon > svg {
+        width: 100%;
+        height: 100%; }
+    @media only screen and (min-device-width: 736px) {
+        tb-notification-widget {
+            /* new design */
+            /* old design*/ }
+        tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner .tb-widget-buttons.tb-btn-style-square tb-notification-button .tb-notification-button__inner {
+            padding-left: 55px;
+            width: 239px; }
+        tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner .tb-widget-buttons.tb-btn-style-square tb-notification-button .tb-notification-button__inner tb-notification-button__icon {
+            top: -5px;
+            left: 0px;
+            width: 40px;
+            height: 40px; }
+        tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner tb-notification-widget-overlay .tb-widget-buttons.tb-btn-style-rounded tb-notification-button {
+            margin: 0px 19px 24px 0px;
+            width: 206px;
+            height: 50px; }
+        tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner tb-notification-widget-overlay .tb-widget-buttons.tb-btn-style-rounded tb-notification-button > a {
+            padding: 10px 20px;
+            font-size: 20px; }
+        tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner tb-notification-widget-overlay .tb-widget-buttons.tb-btn-style-rounded tb-notification-button__icon {
+            width: 40px;
+            height: 40px;
+            left: 15px;
+            top: 5px; }
+        tb-notification-widget #tb-notification-widget-inner.tb-notification-widget-inner tb-notification-widget-overlay .tb-widget-buttons.tb-btn-style-rounded tb-notification-button__text {
+            width: 100px;
+            line-height: 30px; } }
